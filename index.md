@@ -1,11 +1,9 @@
-# Positron Emission Tomography and Magnetic Resonance imaging
-
-Andrew J Reader's image reconstruction research group at King's College,
+Andrew J Reader's image reconstruction research group at King's College London,
 St Thomas' Hospital, London SE1 7EH, UK
 
 ## People
 
-Andrew J Reader
+Andrew J Reader ([PURE][ajr])
 
 ### Post-docs
 
@@ -16,8 +14,6 @@ Andrew J Reader
 
 - Sam Ellis
 - James Bland
-- Casper O da Costa-Luis
+- Casper O da Costa-Luis ([@casperdcl](https://github.com/casperdcl))
 
-----
-
-[edit](https://github.com/PET-MR/pet-mr.github.io/edit/master/index.md)
+[ajr]: https://kclpure.kcl.ac.uk/portal/andrew.reader.html
