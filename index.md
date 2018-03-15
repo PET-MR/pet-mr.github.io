@@ -3,7 +3,9 @@ St Thomas' Hospital, London SE1 7EH, UK
 
 ## People
 
-Andrew J Reader ([PURE][ajr])
+|                                     |                               |
+| ----------------------------------- | ----------------------------- |
+| ![Andrew Reader](images/andrew.jpg) | Andrew J Reader ([PURE][ajr]) |
 
 ### Post-docs
 
