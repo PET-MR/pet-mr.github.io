@@ -4,7 +4,7 @@ St Thomas' Hospital, London SE1 7EH, UK
 ## People
 
 Andrew J Reader ([PURE][ajr])
-![Andrew Reader](ajr_profile)
+![Andrew Reader](https://raw.githubusercontent.com/PET-MR/pet-mr.github.io/master/images/andrew.jpg)
 
 ### Post-docs
 
@@ -18,4 +18,3 @@ Andrew J Reader ([PURE][ajr])
 - Casper O da Costa-Luis ([@casperdcl](https://github.com/casperdcl))
 
 [ajr]: https://kclpure.kcl.ac.uk/portal/andrew.reader.html
-[ajr_proile]: https://raw.githubusercontent.com/PET-MR/pet-mr.github.io/master/images/andrew.jpg
