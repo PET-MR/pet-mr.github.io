@@ -4,7 +4,7 @@ St Thomas' Hospital, London SE1 7EH, UK
 ## People
 
 Andrew J Reader ([PURE][ajr])
-![Andrew Reader][ajr_profile]
+![Andrew Reader](ajr_profile)
 
 ### Post-docs
 
