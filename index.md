@@ -18,4 +18,4 @@ Andrew J Reader ([PURE][ajr])
 - Casper O da Costa-Luis ([@casperdcl](https://github.com/casperdcl))
 
 [ajr]: https://kclpure.kcl.ac.uk/portal/andrew.reader.html
-[ajr_proile]: /images/andrew.jpg
+[ajr_proile]: https://github.com/PET-MR/pet-mr.github.io/blob/master/images/andrew.jpg
