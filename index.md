@@ -3,10 +3,9 @@ St Thomas' Hospital, London SE1 7EH, UK
 
 ## People
 
-![Andrew Reader](https://raw.githubusercontent.com/PET-MR/pet-mr.github.io/master/images/andrew.jpg)
-
-Andrew J Reader ([PURE][ajr])
-
+|                                     |                               |
+| ----------------------------------- | ----------------------------- |
+| ![Andrew Reader](images/andrew.jpg) | Andrew J Reader ([PURE][ajr]) |
 
 ### Post-docs
 
