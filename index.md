@@ -1,21 +1,25 @@
-Andrew J Reader's image reconstruction research group at King's College London,
+Andrew J. Reader's image reconstruction research group at King's College London,
 St Thomas' Hospital, London SE1 7EH, UK
 
 ## People
 
-|                                     |                               |
-| ----------------------------------- | ----------------------------- |
-| ![Andrew Reader](images/andrew.jpg) | Andrew J Reader ([PURE][ajr]) |
+- [Professor Andrew J. Reader][ajr]
+
+[![](images/andrew.jpg)][ajr]
 
 ### Post-docs
 
-- Martin Belzunce
+- Martín Belzunce
 - Abolfazl Mehranian
 
 ### PhD Students
 
 - Sam Ellis
 - James Bland
-- Casper O da Costa-Luis ([@casperdcl](https://github.com/casperdcl))
+- Casper da Costa-Luis ([@casperdcl])
+
+<iframe height="400px" sandbox
+ src="https://kclpure.kcl.ac.uk/portal/andrew.reader.html"></iframe>
 
 [ajr]: https://kclpure.kcl.ac.uk/portal/andrew.reader.html
+[@casperdcl]: https://github.com/casperdcl
