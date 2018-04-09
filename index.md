@@ -1,18 +1,18 @@
-Professor Andrew J. Reader's image reconstruction research group
-at King's College London, St Thomas' Hospital, London SE1 7EH, UK
+Professor Andrew J. Reader's image reconstruction research group at <br/>
+King's College London, St Thomas' Hospital, London SE1&nbsp;7EH, UK
 
-## People
+# People
 
 - [![Professor Andrew J. Reader][badge-pure-ajr14]][pure-ajr14]
 
 [![](images/andrew.jpg)][pure-ajr14]
 
-### Post-docs
+## Post-docs
 
 - [![Martín Belzunce][badge-pure-mab15]][pure-mab15]
 - [![Abolfazl Mehranian][badge-pure-abm15]][pure-abm15]
 
-### PhD Students
+## PhD Students
 
 - [![Sam Ellis][badge-pure-se15]][pure-se15]
 - [![James Bland][badge-pure-jab15]][pure-jab15]
