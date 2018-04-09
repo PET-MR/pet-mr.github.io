@@ -21,8 +21,11 @@ at King's College London, St Thomas' Hospital, London SE1 7EH, UK
 
 ----
 
-<iframe height="400px" sandbox
- src="https://kclpure.kcl.ac.uk/portal/andrew.reader.html"></iframe>
+<!--https://codegena.com/generator/iframe-code-generator-->
+<div class="codegena_iframe"><iframe
+ src="https://kclpure.kcl.ac.uk/portal/andrew.reader.html"
+ style="background:url('//codegena.com/wp-content/uploads/2015/09/loading.gif') white center center no-repeat;border:0px;"
+ height="400" width="600" sandbox=""></iframe></div>
 
 [pure-ajr14]: https://kclpure.kcl.ac.uk/portal/andrew.reader.html
 [pure-mab15]: https://kclpure.kcl.ac.uk/portal/martin.belzunce.html
