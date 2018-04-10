@@ -25,8 +25,9 @@ $(function() {
   $sections = $("section h1");
   for(var i = 1; i < $sections.length; i++)
   {
-    $sections[i].before('</section><section>');
-    console.log('added section break', i);
+    // $sections[i].before('</section><section>');
+    // console.log('added section break', i);
+    console.log('need to prefix </section><section>?');
   }
   /*$("div.wrapper h1").each(function(){
     $(this).innerHTML = "<section>" + $(this).innerHTML + "</section>";
