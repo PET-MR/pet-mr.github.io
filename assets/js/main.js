@@ -1,6 +1,15 @@
 var sectionHeight = function() {
   var total     = $(window).height(),
+  //      $main = $('main').css('height','auto');
       $sections = $('section');
+
+  /*if ($main.outerHeight(true) < total) {
+    var margin = $main.outerHeight(true) - $main.height();
+    $main.height(total - margin - 20);
+  } else {
+    $main.css('height','auto');
+  }*/
+
   $sections.each(function(){$(this).css('height','auto')});
   var totalHeight = 0;
   $sections.each(function(){ totalHeight += $(this).outerHeight(); });
@@ -29,9 +38,10 @@ $(function() {
     // console.log('added section break', i);
     console.log('need to prefix </section><section>?');
   }
-  /*$("div.wrapper h1").each(function(){
-    $(this).innerHTML = "<section>" + $(this).innerHTML + "</section>";
-  });*/
+
+  $("section h1").each(function(){
+    $(this).wrap('<header class="section">');
+  });
 
   $("section h1, section h2, section h3").each(function(){
     $("nav ul").append("<li class='tag-" + this.nodeName.toLowerCase() + "'><a href='#" + tagifyHeading($(this)) + "'>" + $(this).text() + "</a></li>");
