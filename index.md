@@ -3,9 +3,9 @@ King's College London, St Thomas' Hospital, London SE1&nbsp;7EH, UK
 
 # People
 
-- [![Professor Andrew J. Reader][badge-pure-ajr14]][pure-ajr14]
+- [![Professor Andrew J. Reader][badge-pure-ajr14]](#pure-ajr14)
 
-[![](images/andrew.jpg)][pure-ajr14]
+[![](images/andrew.jpg)](#pure-ajr14)
 
 ## Post-docs
 
@@ -26,7 +26,7 @@ King's College London, St Thomas' Hospital, London SE1&nbsp;7EH, UK
 ----
 
 <!--https://codegena.com/generator/iframe-code-generator-->
-<div class="codegena_iframe"><iframe
+<div id="pure-ajr14" class="codegena_iframe"><iframe
  src="https://kclpure.kcl.ac.uk/portal/andrew.reader.html"
  style="background:url('//codegena.com/wp-content/uploads/2015/09/loading.gif') white center center no-repeat;border:0px;"
  height="400" width="600" sandbox=""></iframe></div>
