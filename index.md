@@ -15,8 +15,11 @@ King's College London, St Thomas' Hospital, London SE1&nbsp;7EH, UK
 ## PhD Students
 
 - [![Sam Ellis][badge-pure-se15]][pure-se15]
+  [![][badge-cdt-se15]][cdt-se15]
 - [![James Bland][badge-pure-jab15]][pure-jab15]
+  [![][badge-cdt-jab15]][cdt-jab15]
 - [![Casper da Costa-Luis][badge-pure-cc16]][pure-cc16]
+  [![][badge-cdt-cc16]][cdt-cc16]
   [![][badge-gh-casperdcl]][gh-casperdcl]
 
 # Downloads
@@ -44,6 +47,15 @@ King's College London, St Thomas' Hospital, London SE1&nbsp;7EH, UK
 [badge-pure-se15]: https://img.shields.io/badge/KCL_PURE-Sam_Ellis-black.svg?colorB=972023&longCache=true
 [badge-pure-jab15]: https://img.shields.io/badge/KCL_PURE-James_Bland-black.svg?colorB=972023&longCache=true
 [badge-pure-cc16]: https://img.shields.io/badge/KCL_PURE-Casper_da_Costa--Luis-black.svg?colorB=972023&longCache=true
+
+[cdt-se15]: http://www.imagingcdt.com/students/student-profiles/sam-ellis
+[cdt-jab15]: http://www.imagingcdt.com/students/student-profiles/james-bland
+[cdt-cc16]: http://www.imagingcdt.com/students/student-profiles/casper-da-costa-luis
+
+[badge-cdt-se15]: https://img.shields.io/badge/Imaging_CDT-Sam_Ellis-black.svg?colorB=0f3864&longCache=true
+[badge-cdt-jab15]: https://img.shields.io/badge/Imaging_CDT-James_Bland-black.svg?colorB=0f3864&longCache=true
+[badge-cdt-cc16]: https://img.shields.io/badge/Imaging_CDT-Casper_da_Costa--Luis-black.svg?colorB=0f3864&longCache=true
+
 
 [badge-gh-casperdcl]: https://img.shields.io/badge/GitHub-casperdcl-green.svg?style=social&logo=github&longCache=true
 [gh-casperdcl]: https://github.com/casperdcl
