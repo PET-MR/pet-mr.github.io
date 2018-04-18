@@ -1,4 +1,3 @@
-
 ## High-Resolution Heterogeneous Digital PET Brain Phantom based on the BigBrain Atlas 
 ##### M A Belzunce and A J Reader
 
@@ -13,3 +12,94 @@ A realistic [18F]FDG digital phantom that overcomes the problems of the current 
 ### What the Phantom looks like?
 
 ![Phantom](images/phantom_images.png)
+
+### Download Phantom Data Set
+The phantom data set consists of the PET phantom, a T1-weighted MRI image, a CT image and an attenuation map for 511 keV. They are available in three different resolutions: 200 
+
+* **100 &#181;m**
+
+    - Nifti
+    
+        - PET image:
+        
+        - MRI image:
+        
+        - CT image:
+        
+        - Attenuation map image:
+        
+    - MATLAB
+    
+        - MATLAB structure with the full data set:
+        
+    - Raw
+    
+        - PET image:
+        
+        - MRI image:
+        
+        - CT image:
+        
+        - Attenuation map image:
+            
+* **400 &#181;m**
+
+    - Nifti
+    
+        - PET image:
+        
+        - MRI image:
+        
+        - CT image:
+        
+        - Attenuation map image:
+        
+    - MATLAB
+    
+        - MATLAB structure with the full data set:
+        
+    - Raw
+    
+        - PET image:
+        
+        - MRI image:
+        
+        - CT image:
+        
+        - Attenuation map image:
+        
+* **1 mm**
+
+    - Nifti
+    
+        - PET image:
+        
+        - MRI image:
+        
+        - CT image:
+        
+        - Attenuation map image:
+        
+    - MATLAB
+    
+        - MATLAB structure with the full data set:
+        
+    - Raw
+    
+        - PET image:
+        
+        - MRI image:
+        
+        - CT image:
+        
+        - Attenuation map image:
+
+### Download Phantom Data Set
+Simulated data for the Siemens Biograph mMR scanner:
+
+### Download Functions to Evalute Reconstruction
+This is a set of functions to evalute reonstructed images:
+
+### CONTACT
+For questions or further information:
+<a href="martin.belzunce@kcl.ac.uk">martin.belzunce@kcl.ac.uk</a>
