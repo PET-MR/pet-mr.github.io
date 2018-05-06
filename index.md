@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 Professor Andrew J. Reader's image reconstruction research group at <br/>
 King's College London, St Thomas' Hospital, London SE1&nbsp;7EH, UK
 
