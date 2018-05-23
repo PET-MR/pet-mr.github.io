@@ -12,14 +12,17 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    
+    <script type="text/javascript"
+     src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <script src="{{ '/assets/js/mathjax.js' | relative_url }}"></script>
   </head>
   <body>
 
-      <header class="title">
+      <header class="title"><a href="{{ '/' | relative_url }}">
         <p>{{ site.title | default: site.github.repository_name }}</p>
         <h1>{{ site.description | default: site.github.project_tagline }}</h1>
-      </header>
+      </a></header>
 
       <!-- <div id="banner">
         <span id="logo"></span>
@@ -67,3 +70,4 @@
     {% endif %}
   </body>
 </html>
+
