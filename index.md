@@ -30,8 +30,11 @@ King's College London, St Thomas' Hospital, London SE1&nbsp;7EH, UK
 
 # Downloads
 
-### Projects
-[High-Resolution Heterogeneous Digital Brain Phantom](./brain_phantom/index.md "downloadable digital brain phantom")
+## Projects
+
+- [High-Resolution Heterogeneous Digital Brain Phantom][brain_phantom]
+
+[brain_phantom]: ./brain_phantom/ "downloadable digital brain phantom"
 
 ----
 

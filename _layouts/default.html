@@ -13,38 +13,16 @@
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script>
-            MathJax.Hub.Config({
-                config: ["MMLorHTML.js"],
-                extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
-                jax: ["input/TeX"],
-                tex2jax: {
-                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-                    processEscapes: false
-                },
-                TeX: {
-                    TagSide: "right",
-                    TagIndent: ".8em",
-                    MultLineWidth: "85%",
-                    equationNumbers: {
-                    autoNumber: "AMS",
-                    },
-                    unicode: {
-                    fonts: "STIXGeneral,'Arial Unicode MS'"
-                    }
-                },
-                showProcessingMessages: false
-            });
-    </script>
+    <script type="text/javascript"
+     src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <script src="{{ '/assets/js/mathjax.js' | relative_url }}"></script>
   </head>
   <body>
 
-      <header class="title">
+      <header class="title"><a href="{{ '/' | relative_url }}">
         <p>{{ site.title | default: site.github.repository_name }}</p>
         <h1>{{ site.description | default: site.github.project_tagline }}</h1>
-      </header>
+      </a></header>
 
       <!-- <div id="banner">
         <span id="logo"></span>
