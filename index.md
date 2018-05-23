@@ -41,7 +41,7 @@ King's College London, St Thomas' Hospital, London SE1&nbsp;7EH, UK
 [{{ mem.name }}-pure]: {{ site.data.people.pure.pre }}{{ mem.pure }}
 
 [{{ mem.name }}-cdt-badge]:  {{ site.data.people.cdt.badge.pre }}{{ mem.name | replace: ' ', '_' | replace: '-', '--' }}{{ site.data.people.cdt.badge.post }}
-[{{ mem.name }}-cdt]: {{ site.data.people.cdt.pre }}{{ mem.cdt }}
+[{{ mem.name }}-cdt]: {{ site.data.people.cdt.pre }}{{ mem.name | downcase | replace: ' ', '-' }}
 
 {% if mem.github %}
 [{{ mem.name }}-github-badge]: {{ site.data.people.github.badge.pre }}{{ mem.github }}{{ site.data.people.github.badge.post }}

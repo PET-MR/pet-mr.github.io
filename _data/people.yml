@@ -4,13 +4,10 @@ pi:
 phdstudents:
  - name: Sam Ellis
    pure: en/persons/sam-ellis(de102855-1bac-481f-85a6-dbcad7fd8bdd).html
-   cdt: sam-ellis
  - name: James Bland
    pure: en/persons/james-bland(aba43607-4d8f-47e7-bf78-31fea888dcd5).html
-   cdt: james-bland
  - name: Casper da Costa-Luis
    pure: en/persons/casper-da-costaluis(256b1ce7-c7f9-4201-b375-db04008a6660).html
-   cdt: casper-da-costa-luis
    github: casperdcl
 postdocs:
  - name: Martín Belzunce
