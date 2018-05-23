@@ -31,6 +31,22 @@ A realistic [18F]FDG digital phantom that overcomes the problems of the current 
 
 The phantom data set consists of the PET phantom, a T1-weighted MRI image, a CT image and an attenuation map for 511 keV. They are available in three different resolutions: 200
 
+<!--
+* **100 &#181;m**
+    - Nifti
+        - PET image:
+        - MRI image:
+        - CT image:
+        - Attenuation map image:
+    - MATLAB
+        - MATLAB structure with the full data set:
+    - Raw
+        - PET image:
+        - MRI image:
+        - CT image:
+        - Attenuation map image:
+-->
+
 * **400 &#181;m**
     - Nifti
         - [PET image][zenodo.1190597]
@@ -44,6 +60,22 @@ The phantom data set consists of the PET phantom, a T1-weighted MRI image, a CT 
         - MRI image
         - CT image
         - Attenuation map image
+
+<!--
+* **1 mm**
+    - Nifti
+        - PET image:
+        - MRI image:
+        - CT image:
+        - Attenuation map image:
+    - MATLAB
+        - MATLAB structure with the full data set:
+    - Raw
+        - PET image:
+        - MRI image:
+        - CT image:
+        - Attenuation map image:
+-->
 
 ## Simulated data for the Siemens Biograph mMR scanner
 
