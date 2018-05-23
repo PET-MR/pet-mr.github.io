@@ -2,31 +2,28 @@
 layout: default
 ---
 
-Professor Andrew J. Reader's image reconstruction research group at <br/>
+{{ site.data.people.pi.name }}'s image reconstruction research group at <br/>
 King's College London, St Thomas' Hospital, London SE1&nbsp;7EH, UK
 
 ![](images/group.jpg)
 
 # People
 
-- [![Professor Andrew J. Reader][badge-pure-ajr14]](#pure-ajr14)
+- [![{{ site.data.people.pi.name }}][{{ site.data.people.pi.name }}-pure-badge]](#pure-ajr14)
 
 [![](images/andrew.jpg)](#pure-ajr14)
 
 ## Post-docs
 
-- [![Martín Belzunce][badge-pure-mab15]][pure-mab15]
-- [![Abolfazl Mehranian][badge-pure-abm15]][pure-abm15]
+{% for mem in site.data.people.postdocs %}- [![{{ mem.name }}][{{ mem.name }}-pure-badge]][{{ mem.name}}-pure]
+{% endfor %}
 
 ## PhD Students
 
-- [![Sam Ellis][badge-pure-se15]][pure-se15]
-  [![][badge-cdt-se15]][cdt-se15]
-- [![James Bland][badge-pure-jab15]][pure-jab15]
-  [![][badge-cdt-jab15]][cdt-jab15]
-- [![Casper da Costa-Luis][badge-pure-cc16]][pure-cc16]
-  [![][badge-cdt-cc16]][cdt-cc16]
-  [![][badge-gh-casperdcl]][gh-casperdcl]
+{% for mem in site.data.people.phdstudents %}- [![{{ mem.name }}][{{ mem.name }}-pure-badge]][{{ mem.name}}-pure]
+  [![][{{ mem.name }}-cdt-badge]][{{ mem.name }}-cdt]{% if mem.github %}
+  [![][{{ mem.name }}-github-badge]][{{ mem.name }}-github]{% endif %}
+{% endfor %}
 
 # Downloads
 
@@ -36,36 +33,27 @@ King's College London, St Thomas' Hospital, London SE1&nbsp;7EH, UK
 
 [brain_phantom]: ./brain_phantom/ "downloadable digital brain phantom"
 
+[{{ site.data.people.pi.name }}-pure-badge]: {{ site.data.people.pure.badge.pre }}{{ site.data.people.pi.name | replace: ' ', '_' | replace: '-', '--' }}{{ site.data.people.pure.badge.post }}
+
+{% assign members = site.data.people.phdstudents | concat: site.data.people.postdocs %}
+{% for mem in members %}
+[{{ mem.name }}-pure-badge]: {{ site.data.people.pure.badge.pre }}{{ mem.name | replace: ' ', '_' | replace: '-', '--' }}{{ site.data.people.pure.badge.post }}
+[{{ mem.name }}-pure]: {{ site.data.people.pure.pre }}{{ mem.pure }}
+
+[{{ mem.name }}-cdt-badge]:  {{ site.data.people.cdt.badge.pre }}{{ mem.name | replace: ' ', '_' | replace: '-', '--' }}{{ site.data.people.cdt.badge.post }}
+[{{ mem.name }}-cdt]: {{ site.data.people.cdt.pre }}{{ mem.cdt }}
+
+{% if mem.github %}
+[{{ mem.name }}-github-badge]: {{ site.data.people.github.badge.pre }}{{ mem.github }}{{ site.data.people.github.badge.post }}
+[{{ mem.name }}-github]: {{ site.data.people.github.pre }}{{ mem.github }}
+{% endif %}
+
+{% endfor %}
+
 ----
 
 <!--https://codegena.com/generator/iframe-code-generator-->
 <div id="pure-ajr14" class="codegena_iframe"><iframe
- src="https://kclpure.kcl.ac.uk/portal/andrew.reader.html"
+ src="{{ site.data.people.pure.pre }}{{ site.data.people.pi.pure }}"
  style="background:url('//codegena.com/wp-content/uploads/2015/09/loading.gif') white center center no-repeat;border:0px;"
  height="400" width="600" sandbox=""></iframe></div>
-
-[pure-ajr14]: https://kclpure.kcl.ac.uk/portal/andrew.reader.html
-[pure-mab15]: https://kclpure.kcl.ac.uk/portal/martin.belzunce.html
-[pure-abm15]: https://kclpure.kcl.ac.uk/portal/abolfazl.mehranian.html
-[pure-se15]: https://kclpure.kcl.ac.uk/portal/en/persons/sam-ellis(de102855-1bac-481f-85a6-dbcad7fd8bdd).html
-[pure-jab15]: https://kclpure.kcl.ac.uk/portal/en/persons/james-bland(aba43607-4d8f-47e7-bf78-31fea888dcd5).html
-[pure-cc16]: https://kclpure.kcl.ac.uk/portal/en/persons/casper-da-costaluis(256b1ce7-c7f9-4201-b375-db04008a6660).html
-
-[badge-pure-ajr14]: https://img.shields.io/badge/KCL_PURE-Prof._Andrew_J._Reader-black.svg?colorB=972023&longCache=true
-[badge-pure-mab15]: https://img.shields.io/badge/KCL_PURE-Martín_Belzunce-black.svg?colorB=972023&longCache=true
-[badge-pure-abm15]: https://img.shields.io/badge/KCL_PURE-Abolfazl_Mehranian-black.svg?colorB=972023&longCache=true
-[badge-pure-se15]: https://img.shields.io/badge/KCL_PURE-Sam_Ellis-black.svg?colorB=972023&longCache=true
-[badge-pure-jab15]: https://img.shields.io/badge/KCL_PURE-James_Bland-black.svg?colorB=972023&longCache=true
-[badge-pure-cc16]: https://img.shields.io/badge/KCL_PURE-Casper_da_Costa--Luis-black.svg?colorB=972023&longCache=true
-
-[cdt-se15]: http://www.imagingcdt.com/students/student-profiles/sam-ellis
-[cdt-jab15]: http://www.imagingcdt.com/students/student-profiles/james-bland
-[cdt-cc16]: http://www.imagingcdt.com/students/student-profiles/casper-da-costa-luis
-
-[badge-cdt-se15]: https://img.shields.io/badge/Imaging_CDT-Sam_Ellis-black.svg?colorB=0f3864&longCache=true
-[badge-cdt-jab15]: https://img.shields.io/badge/Imaging_CDT-James_Bland-black.svg?colorB=0f3864&longCache=true
-[badge-cdt-cc16]: https://img.shields.io/badge/Imaging_CDT-Casper_da_Costa--Luis-black.svg?colorB=0f3864&longCache=true
-
-
-[badge-gh-casperdcl]: https://img.shields.io/badge/GitHub-casperdcl-green.svg?style=social&logo=github&longCache=true
-[gh-casperdcl]: https://github.com/casperdcl

@@ -1,11 +1,9 @@
 ---
 layout: default
-description: High-Resolution Heterogeneous Digital PET Brain Phantom based on the BigBrain Atlas
+title: High-Resolution Heterogeneous Digital PET Brain Phantom based on the BigBrain Atlas
+author: M A Belzunce and A J Reader
+permalink: brain_phantom/
 ---
-
-# High-Resolution Heterogeneous Digital PET Brain Phantom based on the BigBrain Atlas
-
-**M A Belzunce and A J Reader**
 
 Here we propose a new PET brain phantom based on the [Bigbrain](https://bigbrain.loris.ca/main.php) human brain model. The complete proposed dataset includes an [18F]FDG phantom, a pseudo CT, a $\mu$-map and a T1-weighted image, that allows the user to simulate PET and PET-MR data. The phantom is publicaly available in different formats (see below).
 <!--
@@ -77,6 +75,8 @@ The phantom data set consists of the PET phantom, a T1-weighted MRI image, a CT 
         - Attenuation map image:
 -->
 
+[zenodo.1190597]: https://doi.org/10.5281/zenodo.1190597
+
 ## Simulated data for the Siemens Biograph mMR scanner
 
 - Coming soon
@@ -89,5 +89,3 @@ This is a set of functions to evaluate reconstructed images
 
 # Contact
 For questions or further information: <martin.belzunce@kcl.ac.uk>
-
-[zenodo.1190597]: https://doi.org/10.5281/zenodo.1190597

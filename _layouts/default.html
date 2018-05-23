@@ -21,7 +21,11 @@
 
       <header class="title"><a href="{{ '/' | relative_url }}">
         <p>{{ site.title | default: site.github.repository_name }}</p>
-        <h1>{{ site.description | default: site.github.project_tagline }}</h1>
+        {% if page.title %}
+          <h1>{{ page.title }}</h1>
+        {% else %}
+          <h1>{{ site.description | default: site.github.project_tagline }}</h1>
+        {% endif %}
       </a></header>
 
       <!-- <div id="banner">
@@ -46,6 +50,9 @@
 
       <main>
         <section>
+          {% if page.author %}
+          <p><small><strong>{{ page.author }}</strong></small></p>
+          {% endif %}
           {{ content }}
         </section>
       </main>
@@ -54,7 +61,10 @@
         {% if site.github.is_project_page %}
           <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
+        <p><small><a href="{{ '/' | relative_url }}">home</a></small></p>
+        <!--
         <p><small><a href="{{ site.github.edit_url }}">edit</a></small></p>
+        -->
       </footer>
     </div>
 

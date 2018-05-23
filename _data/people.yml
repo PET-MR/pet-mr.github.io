@@ -1,0 +1,35 @@
+pi:
+ name: Professor Andrew J. Reader
+ pure: andrew.reader.html
+phdstudents:
+ - name: Sam Ellis
+   pure: en/persons/sam-ellis(de102855-1bac-481f-85a6-dbcad7fd8bdd).html
+   cdt: sam-ellis
+ - name: James Bland
+   pure: en/persons/james-bland(aba43607-4d8f-47e7-bf78-31fea888dcd5).html
+   cdt: james-bland
+ - name: Casper da Costa-Luis
+   pure: en/persons/casper-da-costaluis(256b1ce7-c7f9-4201-b375-db04008a6660).html
+   cdt: casper-da-costa-luis
+   github: casperdcl
+postdocs:
+ - name: Martín Belzunce
+   pure: martin.belzunce.html
+ - name: Abolfazl Mehranian
+   pure: abolfazl.mehranian.html
+# pre and postfixes for badges and sites
+pure:
+ badge:
+  pre: https://img.shields.io/badge/KCL_PURE-
+  post: -black.svg?colorB=972023&longCache=true
+ pre: https://kclpure.kcl.ac.uk/portal/
+cdt:
+ badge:
+  pre: https://img.shields.io/badge/Imaging_CDT-
+  post: -black.svg?colorB=0f3864&longCache=true
+ pre: http://www.imagingcdt.com/students/student-profiles/
+github:
+ badge:
+  pre: https://img.shields.io/badge/GitHub-
+  post: -green.svg?style=social&logo=github&longCache=true
+ pre: https://github.com/
