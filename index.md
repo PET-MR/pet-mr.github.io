@@ -11,8 +11,6 @@ King's College London, St Thomas' Hospital, London SE1&nbsp;7EH, UK
 
 - [![{{ site.data.people.pi.name }}][{{ site.data.people.pi.name }}-pure-badge]](#pure-ajr14)
 
-[![](images/andrew.jpg)](#pure-ajr14)
-
 ## Post-docs
 
 {% for mem in site.data.people.postdocs %}- [![{{ mem.name }}][{{ mem.name }}-pure-badge]][{{ mem.name}}-pure]

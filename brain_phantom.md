@@ -7,7 +7,7 @@ permalink: brain_phantom/
 # mathjax: true
 ---
 
-Here we propose a new PET brain phantom based on the [Bigbrain](https://bigbrain.loris.ca/main.php) human brain model. The complete proposed dataset includes an [18F]FDG phantom, a pseudo CT, a $\mu$-map and a T1-weighted image, that allows the user to simulate PET and PET-MR data. The phantom is publicaly available in different formats (see below).
+Here we propose a new PET brain phantom based on the [Bigbrain](https://bigbrain.loris.ca/main.php) human brain model. The complete proposed dataset includes an [${}^{18}$F]FDG phantom, a pseudo CT, a $\mu$-map and a T1-weighted image, that allows the user to simulate PET and PET-MR data. The phantom is publicaly available in different formats (see below).
 <!--
 A set of simulated scans for the Siemens Biograph mMR scanner is also available for different noise levels.
 -->
@@ -19,7 +19,7 @@ In positron emission tomography (PET), the evaluation of image reconstruction al
 
 ## The Proposed Phantom
 
-A realistic [18F]FDG digital phantom that overcomes the problems of the current PET digital brain phantoms, particularly for the simulation of simultaneous PET-MRI data sets, was created using the method described in (reference to abstract). In the latter, the histology  images and a tissue classified volume of the BigBrain atlas is used to define the high resolution structures of the phantom. Then, the uptake in different regions of the brain is estimated using the Hammersmith brain atlas and a reconstructed image of real data from an [18F]FDG study.
+A realistic [${}^{18}$F]FDG digital phantom that overcomes the problems of the current PET digital brain phantoms, particularly for the simulation of simultaneous PET-MRI data sets, was created using the method described in (reference to abstract). In the latter, the histology  images and a tissue classified volume of the BigBrain atlas is used to define the high resolution structures of the phantom. Then, the uptake in different regions of the brain is estimated using the Hammersmith brain atlas and a reconstructed image of real data from an [${}^{18}$F]FDG study.
 
 ## What the Phantom looks like
 
@@ -32,7 +32,7 @@ A realistic [18F]FDG digital phantom that overcomes the problems of the current 
 The phantom data set consists of the PET phantom, a T1-weighted MRI image, a CT image and an attenuation map for 511 keV. They are available in three different resolutions: 200
 
 <!--
-* **100 &#181;m**
+* **100 $\mu$m**
     - Nifti
         - PET image:
         - MRI image:
@@ -47,7 +47,7 @@ The phantom data set consists of the PET phantom, a T1-weighted MRI image, a CT 
         - Attenuation map image:
 -->
 
-* **400 &#181;m**
+* **400 $\mu$m**
     - Nifti
         - [PET image][zenodo.1190597]
         - MRI image
