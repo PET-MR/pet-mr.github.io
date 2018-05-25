@@ -3,6 +3,8 @@ layout: default
 title: High-Resolution Heterogeneous Digital PET Brain Phantom based on the BigBrain Atlas
 author: M A Belzunce and A J Reader
 permalink: brain_phantom/
+# markdown: kramdown
+# mathjax: true
 ---
 
 Here we propose a new PET brain phantom based on the [Bigbrain](https://bigbrain.loris.ca/main.php) human brain model. The complete proposed dataset includes an [18F]FDG phantom, a pseudo CT, a $\mu$-map and a T1-weighted image, that allows the user to simulate PET and PET-MR data. The phantom is publicaly available in different formats (see below).
@@ -21,7 +23,7 @@ A realistic [18F]FDG digital phantom that overcomes the problems of the current 
 
 ## What the Phantom looks like
 
-![Phantom](images/phantom_images.png)
+![Phantom](/images/phantom_images.png)
 
 # Downloads
 
