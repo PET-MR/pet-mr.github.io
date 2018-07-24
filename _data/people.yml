@@ -12,6 +12,7 @@ phdstudents:
 postdocs:
  - name: Martín Belzunce
    pure: martin.belzunce.html
+   github: mabelzunce
  - name: Abolfazl Mehranian
    pure: abolfazl.mehranian.html
 # pre and postfixes for badges and sites
