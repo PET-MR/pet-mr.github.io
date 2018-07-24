@@ -32,6 +32,10 @@ King's College London, St Thomas' Hospital, London SE1&nbsp;7EH, UK
 
 [brain_phantom]: ./brain_phantom/ "downloadable digital brain phantom"
 
+## Misc
+
+- [*Multi-modal weighted quadratic priors for robust synergistic PET-MR reconstruction*, PSMR 2018](https://www.youtube.com/watch?v=cbuncWC6oKc)
+
 [{{ site.data.people.pi.name }}-pure-badge]: {{ site.data.people.pure.badge.pre }}{{ site.data.people.pi.name | replace: ' ', '_' | replace: '-', '--' }}{{ site.data.people.pure.badge.post }}
 
 {% assign members = site.data.people.phdstudents | concat: site.data.people.postdocs %}
