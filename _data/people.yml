@@ -10,11 +10,13 @@ phdstudents:
    pure: en/persons/casper-da-costaluis(256b1ce7-c7f9-4201-b375-db04008a6660).html
    github: casperdcl
 postdocs:
- - name: Martín Belzunce
-   pure: martin.belzunce.html
-   github: mabelzunce
  - name: Abolfazl Mehranian
    pure: abolfazl.mehranian.html
+ - name: Martín Belzunce
+   #pure: martin.belzunce.html
+   github: mabelzunce
+   rg: Martin_Belzunce
+   left: July 2018
 # pre and postfixes for badges and sites
 pure:
  badge:
@@ -31,3 +33,12 @@ github:
   pre: https://img.shields.io/badge/GitHub-
   post: -green.svg?style=social&logo=github&longCache=true
  pre: https://github.com/
+rg:
+ badge:
+  pre: https://img.shields.io/badge/Research_Gate-
+  post: -black.svg?colorB=00c0b0&longCache=true
+ pre: https://www.researchgate.net/profile/
+left:
+ badge:
+  pre: https://img.shields.io/badge/Left-
+  post: -black.svg?longCache=true
