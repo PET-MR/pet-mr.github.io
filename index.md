@@ -34,8 +34,10 @@ King's College London, St Thomas' Hospital, London SE1&nbsp;7EH, UK
 ## Projects
 
 - [High-Resolution Heterogeneous Digital Brain Phantom][brain_phantom]
+- [The NURBS-based HUman Brain (NHUB) Phantom][nhub]
 
 [brain_phantom]: ./brain_phantom/ "downloadable digital brain phantom"
+[nhub]: https://github.com/casperdcl/brain_phantom "Source code"
 
 ## Misc
 
