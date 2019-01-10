@@ -1,6 +1,7 @@
 pi:
- name: Professor Andrew J. Reader
- pure: andrew.reader.html
+ - name: Professor Andrew J. Reader
+   pure: andrew.reader.html
+   github: ajreader
 phdstudents:
  - name: Sam Ellis
    pure: en/persons/sam-ellis(de102855-1bac-481f-85a6-dbcad7fd8bdd).html

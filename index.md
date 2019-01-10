@@ -2,14 +2,16 @@
 layout: default
 ---
 
-{{ site.data.people.pi.name }}'s image reconstruction research group at <br/>
+{{ site.data.people.pi[0].name }}'s image reconstruction research group at <br/>
 King's College London, St Thomas' Hospital, London SE1&nbsp;7EH, UK
 
 ![](images/group.jpg)
 
 # People
 
-- [![{{ site.data.people.pi.name }}][{{ site.data.people.pi.name }}-pure-badge]](#pure-ajr14)
+{% for mem in site.data.people.pi %}- [![{{ mem.name }}][{{ mem.name }}-pure-badge]](#pure-{{ mem.name | replace: ' ', '_' }}){% if mem.github %}
+[![][{{ mem.name }}-github-badge]][{{ mem.name }}-github]{% endif %}
+{% endfor %}
 
 ## Post-docs
 
@@ -43,9 +45,7 @@ King's College London, St Thomas' Hospital, London SE1&nbsp;7EH, UK
 
 - [*Multi-modal weighted quadratic priors for robust synergistic PET-MR reconstruction*, PSMR 2018](https://www.youtube.com/watch?v=cbuncWC6oKc)
 
-[{{ site.data.people.pi.name }}-pure-badge]: {{ site.data.people.pure.badge.pre }}{{ site.data.people.pi.name | replace: ' ', '_' | replace: '-', '--' }}{{ site.data.people.pure.badge.post }}
-
-{% assign members = site.data.people.phdstudents | concat: site.data.people.postdocs %}
+{% assign members = site.data.people.phdstudents | concat: site.data.people.postdocs | concat: site.data.people.pi %}
 {% for mem in members %}
 
 {% if mem.pure %}
@@ -74,8 +74,10 @@ King's College London, St Thomas' Hospital, London SE1&nbsp;7EH, UK
 
 ----
 
+{% for mem in site.data.people.pi %}{% if mem.pure %}
 <!--https://codegena.com/generator/iframe-code-generator-->
-<div id="pure-ajr14" class="codegena_iframe"><iframe
- src="{{ site.data.people.pure.pre }}{{ site.data.people.pi.pure }}"
+<div id="pure-{{ mem.name | replace: ' ', '_' }}" class="codegena_iframe"><iframe
+ src="{{ site.data.people.pure.pre }}{{ mem.pure }}"
  style="background:url('//codegena.com/wp-content/uploads/2015/09/loading.gif') white center center no-repeat;border:0px;"
  height="400" width="600" sandbox=""></iframe></div>
+{% endif %}{% endfor %}
