@@ -37,9 +37,11 @@ King's College London, St Thomas' Hospital, London SE1&nbsp;7EH, UK
 
 - [High-Resolution Heterogeneous Digital Brain Phantom][brain_phantom]
 - [The NURBS-based HUman Brain (NHUB) Phantom][nhub]
+- [PET Image Reconstruction Library][APIRL]
 
 [brain_phantom]: ./brain_phantom/ "downloadable digital brain phantom"
 [nhub]: https://github.com/casperdcl/brain_phantom "Source code"
+[APIRL]: https://github.com/PET-MR/apirl "Source code"
 
 ## Misc
 
