@@ -13,10 +13,16 @@ phdstudents:
  - name: Casper da Costa-Luis
    pure: en/persons/casper-da-costaluis(256b1ce7-c7f9-4201-b375-db04008a6660).html
    github: casperdcl
+ - name: Guillaume Corda
+   pure: en/persons/guillaume-corda(95d6f6bd-a757-42d4-9092-da3fb31e378d).html
+   github: GuillaumeCorda
+ - name: Joshua Moo
+   pure: en/persons/joshua-moo(199f2fad-81e4-4d04-b4fe-e4a83ee6be6b).html
 postdocs:
  - name: Abolfazl Mehranian
    pure: abolfazl.mehranian.html
    github: Abolfazl-Mehranian
+   left: July 2019
  - name: Martín Belzunce
    #pure: martin.belzunce.html
    github: mabelzunce
