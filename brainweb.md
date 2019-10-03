@@ -1,13 +1,20 @@
+---
+layout: default
+title: BrainWeb-based multimodal models of 20 normal brains
+author: C O da Costa-Luis
+permalink: brainweb/
+# markdown: kramdown
+# mathjax: true
+---
+
 The following example may be launched interactively via any of the
 following:
 
 -   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/casperdcl/brainweb/master?filepath=README.ipynb)
--   [Local file](README.ipynb)
--   [GitHub
-    Preview](https://github.com/casperdcl/brainweb/blob/master/README.ipynb)
+-   [![GitHub
+    Preview](https://img.shields.io/badge/preview-GitHub-181717.svg?logo=github)](https://github.com/casperdcl/brainweb/blob/master/README.ipynb)
 
-BrainWeb-based multimodal models of 20 normal brains
-====================================================
+----------------------------------------------------
 
 [![PyPI](https://img.shields.io/pypi/v/brainweb.svg)](https://pypi.org/project/brainweb)
 [![CI](https://travis-ci.org/casperdcl/brainweb.svg?branch=master)](https://travis-ci.org/casperdcl/brainweb)
@@ -32,11 +39,7 @@ exist.
 
 ------------------------------------------------------------------------
 
--   Author: Casper da Costa-Luis &lt;<casper.dcl@physics.org>&gt;
--   Date: 2017-19
--   Licence: [MPLv2.0](https://www.mozilla.org/MPL/2.0)
-
-``` {.sourceCode .python}
+```python
 from __future__ import print_function, division
 %matplotlib notebook
 import brainweb
@@ -51,7 +54,7 @@ logging.basicConfig(level=logging.INFO)
 Raw Data
 --------
 
-``` {.sourceCode .python}
+```python
 # download
 files = brainweb.get_files()
 
@@ -75,13 +78,13 @@ Convert raw image data:
 -   Siemens Biograph mMR resolution (\~2mm) & dimensions (127, 344, 344)
 -   PET/T1/T2/uMap intensities
 -   randomised structure for PET/T1/T2
--   t (1 + g \[2 G\_sigma(r) - 1\]), where
-    -   r = rand(127, 344, 344) in \[0, 1),
-    -   Gaussian smoothing sigma = 1,
-    -   g = 1 for PET; 0.75 for MR, and
-    -   t = the PET or MR piecewise constant phantom
+-   $t (1 + g [2 G_\sigma(r) - 1])$, where
+    -   $r = $`rand(127, 344, 344)` $\in [0, 1)$,
+    -   Gaussian smoothing $\sigma = 1$,
+    -   $g = 1$ for PET; 0.75 for MR, and
+    -   $t$ = the PET or MR piecewise constant phantom
 
-``` {.sourceCode .python}
+```python
 brainweb.seed(1337)
 
 for f in tqdm(files, desc="mMR ground truths", unit="subject"):
@@ -91,7 +94,7 @@ for f in tqdm(files, desc="mMR ground truths", unit="subject"):
         petSigma=1, t1Sigma=1, t2Sigma=1)
 ```
 
-``` {.sourceCode .python}
+```python
 # show last subject
 print(f)
 volshow([vol['PET' ][:, 100:-100, 100:-100],
@@ -106,7 +109,7 @@ volshow([vol['PET' ][:, 100:-100, 100:-100],
 
 ![image](https://raw.githubusercontent.com/casperdcl/brainweb/master/mMR.png)
 
-``` {.sourceCode .python}
+```python
 # add some lesions
 brainweb.seed(1337)
 im3d = brainweb.add_lesions(vol['PET'])
