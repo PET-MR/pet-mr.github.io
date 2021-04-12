@@ -37,6 +37,7 @@ King's College London, St Thomas' Hospital, London SE1&nbsp;7EH, UK
 
 - Brain phantoms
     + [BrainWeb-based multimodal models of 20 normal brains][brainweb]
+    + [NiftyML]
     + [High-Resolution Heterogeneous Digital Brain Phantom][brain_phantom]
     + [The NURBS-based HUman Brain (NHUB) Phantom][nhub]
 - PET Image Reconstruction Libraries
@@ -47,7 +48,8 @@ King's College London, St Thomas' Hospital, London SE1&nbsp;7EH, UK
 [brain_phantom]: ./brain_phantom/ "downloadable digital brain phantom"
 [brainweb]: ./brainweb/ "downloadable digital brain phantoms"
 [nhub]: https://github.com/casperdcl/brain_phantom "Source code"
-[NiftyPET]: https://github.com/casperdcl/NIPET "Source code"
+[NiftyPET]: https://github.com/NiftyPET/NIPET "Source code"
+[NiftyML]: https://github.com/NiftyPET/NiftyML "Source code"
 [SIRF]: https://github.com/CCPPETMR/SIRF "Source code"
 [APIRL]: https://github.com/PET-MR/apirl "Source code"
 
