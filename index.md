@@ -24,8 +24,7 @@ King's College London, St Thomas' Hospital, London SE1&nbsp;7EH, UK
 
 ## PhD Students
 
-{% for mem in site.data.people.phdstudents %}- [![{{ mem.name }}][{{ mem.name }}-pure-badge]][{{ mem.name}}-pure]
-  [![][{{ mem.name }}-cdt-badge]][{{ mem.name }}-cdt]{% if mem.rg %}
+{% for mem in site.data.people.phdstudents %}- [![{{ mem.name }}][{{ mem.name }}-pure-badge]][{{ mem.name}}-pure]{% if mem.rg %}
   [![{{ mem.name }}][{{ mem.name }}-rg-badge]][{{ mem.name}}-rg]{% endif %}{% if mem.github %}
   [![][{{ mem.name }}-github-badge]][{{ mem.name }}-github]{% endif %}{% if mem.left %}
   ![][{{ mem.name }}-left-badge]{% endif %}
